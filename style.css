@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(imagens/background-insta.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    background-color: #fff;
+    color: white !important;
+}
+
+.insta{
+    background-image: url(imagens/background-insta.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+
+.blue{
+    background-image: url(imagens/background-blue.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+
+.green{
+    background-image: url(imagens/background-green.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+
+.rainbow{
+    background-image: url(imagens/background-rainbow.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.50s ease-in-out;
+}
+
+header{
+    top: 0;
+        position: fixed;
+        height: 10vh;
+        width: 100vw;
+        background: transparent;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+    color: #fff;
+} 
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 12.5rem;
+    min-width: 34.375rem;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px 10px  rgb(0 0 0 / 50%);
+}
+
+.relogio div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 10.625rem;
+    min-width: 9.375rem;
+    color: #fff;
+    background: #4B4C85;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 70%);
+    border-radius: 8px;
+    letter-spacing: 3px;
+}
+
+.relogio p {
+    font-weight: bolder;
+    font-size: 3.75rem;
+}
+
+.relogio p.tempo {
+    font-size: 0.825rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+        position: fixed;
+        height: 10vh;
+        width: 100vw;
+        background: transparent;
+        box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, .5);
+    color: #fff;
+}
+
+/*Responsive*/
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
